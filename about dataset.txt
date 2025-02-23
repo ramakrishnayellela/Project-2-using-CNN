@@ -1,0 +1,3 @@
+PlantVillage Dataset:
+
+This is one of the most widely used datasets for plant disease classification. It includes images of healthy and diseased leaves from various crops, such as tomatoes, potatoes, and grapes.
