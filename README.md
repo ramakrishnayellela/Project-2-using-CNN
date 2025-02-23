@@ -1,49 +1,49 @@
-Plant Disease Detection using Computer Vision and Deep Learning
+# Plant Disease Detection using Computer Vision and Deep Learning
 
-🌱 Project Overview
+## 🌱 Project Overview
 
-This project aims to identify plant diseases using computer-assisted aggregation techniques. It leverages Deep Learning (CNNs) to classify plant diseases based on leaf images and recommends suitable pesticides. The model is trained on a dataset containing images of healthy and diseased plant leaves.
+##### This project aims to identify plant diseases using computer-assisted aggregation techniques. It leverages Deep Learning (CNNs) to classify plant diseases based on leaf images and recommends suitable pesticides. The model is trained on a dataset containing images of healthy and diseased plant leaves.
 
-🚀 Features
+## 🚀 Features
 
-Image-based plant disease classification using Convolutional Neural Networks (CNNs)
+#### Image-based plant disease classification using Convolutional Neural Networks (CNNs)
 
-Custom-trained model (not using pre-trained models)
+#### Custom-trained model (not using pre-trained models)
 
-Deployment-ready using Django for web or mobile integration
+#### Deployment-ready using Django for web or mobile integration
 
-Disease diagnosis with pesticide recommendations
+#### Disease diagnosis with pesticide recommendations
 
-User-friendly GUI or web interface for real-time predictions
+#### User-friendly GUI or web interface for real-time predictions
 
-📂 Dataset
+## 📂 Dataset
 
-The dataset consists of labeled images of healthy and diseased leaves.
+#### The dataset consists of labeled images of healthy and diseased leaves.
 
-Sources: Publicly available datasets such as PlantVillage.
+#### Sources: Publicly available datasets such as PlantVillage.
 
-Image preprocessing includes resizing, normalization, and augmentation.
+#### Image preprocessing includes resizing, normalization, and augmentation.
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 
-Programming Language: Python
+#### Programming Language: Python
 
-Deep Learning Frameworks: TensorFlow / PyTorch
+#### Deep Learning Frameworks: TensorFlow / PyTorch
 
-Data Handling: OpenCV, NumPy, Pandas
+#### Data Handling: OpenCV, NumPy, Pandas
 
-Deployment: Django
+#### Deployment: Django
 
-Visualization: Matplotlib, Seaborn
+#### Visualization: Matplotlib, Seaborn
 
-📌 Installation
+## 📌 Installation
 
-Clone the repository:
+### Clone the repository:
 
 git clone https://github.com/your-username/plant-disease-detection.git
 cd plant-disease-detection
 
-Install dependencies:
+### Install dependencies:
 
 pip install -r requirements.txt
 
@@ -59,15 +59,17 @@ python manage.py runserver
 
 Open your browser and go to http://127.0.0.1:8000/.
 
-🏆 Model Performance
+## 🏆 Model Performance
 
-Achieved accuracy: ~95% on the validation dataset.
+#### Achieved accuracy: ~95% on the validation dataset.
 
 Evaluated using Precision, Recall, F1-score, and Confusion Matrix.
 
 Fine-tuned using Data Augmentation & Transfer Learning.
 
-🖼️ Usage
+
+
+## 🖼️ Usage
 
 Upload an image of a plant leaf.
 
@@ -75,7 +77,7 @@ The model predicts the disease category.
 
 Displays the recommended pesticide for treatment.
 
-🛠 Future Improvements
+### 🛠 Future Improvements
 
 Increase dataset size for better generalization.
 
@@ -83,11 +85,11 @@ Deploy as a mobile app for farmers.
 
 Improve explainability using Grad-CAM visualization.
 
-📜 License
+### 📜 License
 
 This project is open-source under the MIT License.
 
-🤝 Acknowledgments
+### 🤝 Acknowledgments
 
 PlantVillage Dataset
 
